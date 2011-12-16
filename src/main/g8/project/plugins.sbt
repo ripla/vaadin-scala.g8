@@ -7,8 +7,3 @@ libraryDependencies <+= sbtVersion(v => "com.github.siasia" %% "xsbt-web-plugin"
 resolvers += Classpaths.typesafeResolver
 
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse" % "1.5.0")
-
-//Vaadin Directory
-resolvers += "Vaadin add-ons repository" at "http:// maven.vaadin.com/vaadin-addons"
-
-libraryDependencies += "org.vaadin.addons" % "scala-wrappers" % "0.1"
