@@ -5,7 +5,7 @@ import com.github.siasia.WebPlugin._
 object BuildSettings {
   val buildSettings = Defaults.defaultSettings ++ Seq(
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-encoding", "UTF-8"),
-    autoScalaLibrary := true,	organization := "com.example", version := "0.1-SNAPSHOT",
+    autoScalaLibrary := true,	organization := "$package$", version := "0.1-SNAPSHOT",
 	scalaVersion := "2.9.1")
 }
 
@@ -24,12 +24,12 @@ object Dependencies {
 
 }
 
-object VaadinScalaBuild extends Build {
+object $classname$Build extends Build {
   import Dependencies._
   import BuildSettings._
   import Resolvers._
 
   val buildSettings = Project.defaultSettings ++ webSettings ++ Seq(libraryDependencies := Seq(vaadin, jetty, scalaWrappers)) ++ Seq(resolvers := Seq(vaadinAddons))
 
-  lazy val root = Project(id = "VaadinScala", base = file("."), settings = buildSettings)
+  lazy val root = Project(id = "$classname$", base = file("."), settings = buildSettings)
 }
