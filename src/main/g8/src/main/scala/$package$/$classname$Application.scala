@@ -1,3 +1,5 @@
+package $package$
+
 import com.vaadin.Application
 import vaadin.scala._
 
