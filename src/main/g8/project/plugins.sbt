@@ -7,3 +7,6 @@ libraryDependencies <+= sbtVersion(v => "com.github.siasia" %% "xsbt-web-plugin"
 resolvers += Classpaths.typesafeResolver
 
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse" % "1.5.0")
+
+// GWT compiler
+addSbtPlugin("net.thunderklaus" % "sbt-gwt-plugin" % "1.1-SNAPSHOT")
