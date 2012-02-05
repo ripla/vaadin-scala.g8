@@ -15,3 +15,12 @@ And browse to http://localhost:8080. You can also type *eclipse* in the SBT-prom
 ## What's included
 
 This template creates an [SBT](https://github.com/harrah/xsbt/wiki) project that includes [Scala](http://www.scala-lang.org/), [Vaadin](http:/vaadin.com) and [ScalaWrappers](http://vaadin.com/addon/scala-wrappers). It also includes the SBT-plugins [xsbt-web-plugin](https://github.com/siasia/xsbt-web-plugin) for Jetty and [sbteclipse](https://github.com/typesafehub/sbteclipse) for creating Eclipse projects
+
+## Using Vaadin add-ons
+
+The build.sbt created by the template contains the necessary ([GWT sbt plugin](https://github.com/thunderklaus/sbt-gwt-plugin)) code to compile the addons.
+
+1. Add a dependency to the add-on to the librarydepencies-section in the build.sbt file
+2. Add the GWT module of the add-on to the gwt.xml file in the src directory.
+3. Uncomment the GWT-plugin lines in the build.sbt
+4. Type gwt-compile in the sbt prompt to compile the widgetset
