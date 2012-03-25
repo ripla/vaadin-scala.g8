@@ -11,11 +11,15 @@
 		<servlet-name>$name$</servlet-name>
 		<servlet-class>com.vaadin.terminal.gwt.server.ApplicationServlet</servlet-class>
 		<init-param>
-			<description>
-			Vaadin application class to start</description>
+			<description>Vaadin application class to start</description>
 			<param-name>application</param-name>
 			<param-value>$package$.$classname$Application</param-value>
 		</init-param>
+		<init-param>
+			<description>Application widgetset</description>
+		  		<param-name>widgetset</param-name>
+		  		<param-value>$package$.$classname$Widgetset</param-value>
+		  	</init-param>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>$name$</servlet-name>
