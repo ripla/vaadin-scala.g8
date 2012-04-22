@@ -15,11 +15,11 @@
 			<param-name>application</param-name>
 			<param-value>$package$.$classname$Application</param-value>
 		</init-param>
-		<init-param>
+		<!--<init-param>
 			<description>Application widgetset</description>
 		  		<param-name>widgetset</param-name>
 		  		<param-value>$package$.$classname$Widgetset</param-value>
-		  	</init-param>
+		  	</init-param>-->
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>$name$</servlet-name>
