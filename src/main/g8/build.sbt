@@ -8,6 +8,8 @@ seq(webSettings: _*)
 
 //seq(gwtSettings: _*)
 
+//gwtVersion := "2.4.0"
+
 resolvers += "Vaadin add-ons repository" at "http://maven.vaadin.com/vaadin-addons"
 
 // basic dependencies
