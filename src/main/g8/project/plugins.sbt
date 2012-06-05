@@ -9,6 +9,6 @@ resolvers += Classpaths.typesafeResolver
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.0.0")
 
 // GWT compiler
-resolvers += "GWT plugin repo" at "http://ripla.github.com/maven"
+resolvers += "GWT plugin repo" at "http://thunderklaus.github.com/maven"
 
 addSbtPlugin("net.thunderklaus" % "sbt-gwt-plugin" % "1.1-SNAPSHOT")
