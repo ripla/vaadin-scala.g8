@@ -14,7 +14,7 @@ And browse to http://localhost:8080. You can also type *eclipse* in the SBT-prom
 
 ## What's included
 
-This template creates an [SBT](https://github.com/harrah/xsbt/wiki) project that includes [Scala](http://www.scala-lang.org/), [Vaadin](http:/vaadin.com) and [ScalaWrappers](http://vaadin.com/addon/scala-wrappers). It also includes the SBT-plugins [xsbt-web-plugin](https://github.com/siasia/xsbt-web-plugin) for Jetty and [sbteclipse](https://github.com/typesafehub/sbteclipse) for creating Eclipse projects
+This template creates an [SBT](https://github.com/harrah/xsbt/wiki) project that includes [Scala](http://www.scala-lang.org/), [Vaadin](http:/vaadin.com) and [Scaladin](http://vaadin.com/addon/scalaladin). It also includes the SBT-plugins [xsbt-web-plugin](https://github.com/siasia/xsbt-web-plugin) for Jetty and [sbteclipse](https://github.com/typesafehub/sbteclipse) for creating Eclipse projects
 
 ## Using Vaadin add-ons
 
