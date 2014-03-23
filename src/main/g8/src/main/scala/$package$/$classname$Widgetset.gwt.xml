@@ -1,5 +1,5 @@
 <module>
-	<inherits name="com.vaadin.terminal.gwt.DefaultWidgetSet" />
+	<inherits name="com.vaadin.DefaultWidgetSet" />
 	
 	<!-- Add widgetset modules from add-ons here. E.g.
 	<inherits name="org.vaadin.teemu.ratingstars.gwt.RatingStarsWidgetset" />
