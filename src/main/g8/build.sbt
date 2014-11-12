@@ -1,6 +1,6 @@
 name := "$name$"
 
-scalaVersion := "2.10.4"
+scalaVersion := "$scalaVersion$"
 
 seq(vaadinWebSettings: _*)
 
@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-server" % "$vaadinVersion$",
   "com.vaadin" % "vaadin-client-compiled" % "$vaadinVersion$",
   "com.vaadin" % "vaadin-themes" % "$vaadinVersion$",
-  "org.vaadin.addons" % "scaladin" % "3.0.0",
+  "org.vaadin.addons" % "scaladin" % "$scaladinVersion$",
   "javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided",
   "org.eclipse.jetty" % "jetty-webapp" % "9.1.3.v20140225" % "container",
   "org.eclipse.jetty" % "jetty-annotations" % "9.1.3.v20140225" % "container"
