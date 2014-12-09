@@ -4,7 +4,7 @@ resolvers += "sbt-vaadin-plugin repo" at "http://henrikerola.github.io/repositor
 // IDE plugin and others
 resolvers += Classpaths.typesafeReleases
 
-addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "0.7.0")
+addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "0.9.0")
 
 addSbtPlugin("org.vaadin.sbt" % "sbt-vaadin-plugin" % "1.0.0")
 
