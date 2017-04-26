@@ -12,9 +12,9 @@ libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-client-compiled" % "$vaadinVersion$",
   "com.vaadin" % "vaadin-themes" % "$vaadinVersion$",
   "org.vaadin.addons" % "scaladin" % "$scaladinVersion$",
-  "javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided",
-  "org.eclipse.jetty" % "jetty-webapp" % "9.1.3.v20140225" % "container",
-  "org.eclipse.jetty" % "jetty-annotations" % "9.1.3.v20140225" % "container"
+  "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
+  "org.eclipse.jetty" % "jetty-webapp" % "9.4.4.v20170414" % "container",
+  "org.eclipse.jetty" % "jetty-annotations" % "9.4.4.v20170414" % "container"
 )
 
 libraryDependencies ++= Seq(
